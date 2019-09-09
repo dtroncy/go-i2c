@@ -2,6 +2,7 @@ I2C library in Golang
 =====================
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/dtroncy/go-i2c)](https://goreportcard.com/report/github.com/dtroncy/go-i2c)
+[![Build Status](https://travis-ci.org/dtroncy/go-i2c.svg?branch=master)](https://travis-ci.org/dtroncy/go-i2c)
 
 This library written in [Go programming language](https://golang.org/) intended to activate and interact with the I2C bus by reading and writing data.
 

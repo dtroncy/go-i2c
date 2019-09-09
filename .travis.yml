@@ -1,6 +1,6 @@
 language: go
 go:
-  - "1.10"
+  - "1.13"
 # - "tip"
 
 # first part of the GOARCH workaround
@@ -21,5 +21,3 @@ before_install:
   - export CGO_ENABLED=$TRAVIS_CGO_ENABLED GOARCH=$TRAVIS_GOARCH GOARM=$TRAVIS_GOARM GOOS=$TRAVIS_GOOS CC=$TRAVIS_CC
   - go env # for debugging
   - go tool dist env # for debugging
-  
-  
